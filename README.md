@@ -69,6 +69,13 @@ python app.py
 Ao criar uma nova tarefa ou acessar quaisquer outros endpoints da API, você terá que utilizar o Token gerado;
 Authorization > Auth Type > Bearer Token > Token
 
+**Exemplo de criação de tarefa:
+
+                        'titulo': 'Minha nova tarefa',
+                        'descricao': 'Descrição da tarefa',
+                        'data_inicio': '2024-08-21T09:00:00-03:00',
+                        'data_fim': '2024-08-21T17:00:00-03:00'
+
 ## 📝 Endpoints da API
 
 A documentação completa dos endpoints está disponível em `/apidocs`. Abaixo, uma breve descrição dos principais endpoints:
