@@ -1,2 +1,12 @@
+# Arquivos de credenciais
 credentials.json
 token.json
+
+# Diretórios de cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Configurações do IDE
+.vscode/
+.idea/
